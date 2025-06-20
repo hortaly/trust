@@ -1,0 +1,86 @@
+#container{
+    position: absolute;
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#left{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-image: url(images/bg-slides-1.png);
+    background-size: cover;
+}
+
+#right{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color: whitesmoke;
+    right: 0;
+}
+
+#move{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#overlay{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: rgba(128, 126, 0, 0.3)
+}
+
+#service{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#create{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+}
+
+#moveform{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#wel{
+    position: absolute;
+    left: 33%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Please{
+    position: absolute;
+    left: 14%;
+}
+
+body{
+    font-family: calibri;
+}
+
+#btn{
+    padding: 15px;
+    width: 100%;
+    background-color: gainsboro;
+    border: 0;
+}
+
+#btc{
+    padding: 15px;
+    width: 110%;
+    background-color: red;
+    color: white;
+    border: 0;
+}
