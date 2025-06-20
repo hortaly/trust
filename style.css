@@ -1,86 +1,109 @@
-#container{
+#house{
     position: absolute;
-    background-color: aquamarine;
     width: 100%;
     height: 100%;
-    top: 0;
     left: 0;
+    background-color: white;
 }
 
-#left{
+#woman{
     position: absolute;
-    width: 60%;
+    width: 50%;
+    left: 0;
     height: 100%;
-    background-image: url(images/bg-slides-1.png);
-    background-size: cover;
+    background-color: gray;
 }
 
-#right{
+#alat{
     position: absolute;
-    width: 40%;
-    height: 100%;
-    background-color: whitesmoke;
+    width: 50%;
     right: 0;
-}
-
-#move{
-    position: absolute;
-    margin-left: 5%;
-    margin-top: 5%;
-}
-
-#overlay{
-    width: 100%;
-    position: absolute;
     height: 100%;
-    background: rgba(128, 126, 0, 0.3)
+    background-color: white;
 }
 
-#service{
-    color: white;
-    font-size: 36px;
-    font-weight: bold;
-}
-
-#create{
-    color: white;
-    font-size: 18px;
+#logo{
+    height: 70px;
+    right: 20%;
+    top: 10%;
     position: absolute;
+}
+
+#pics{
+    height: 600px;
+    position: absolute;
+    top: 10%;
+    bottom: 0%;
+}
+
+#movepara{
+    position: absolute;
+    top: 65%;
+    right: 20%;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#all{
+    font-size: 16px;
+    position: absolute;
+    top: 83%;
+    right: 35%;
+    font-weight: lighter;
 }
 
 #moveform{
     position: absolute;
-    top: 10%;
-    left: 15%;
+    top: 30%;
+    right: 50%;
 }
 
-#wel{
-    position: absolute;
-    left: 33%;
-    font-size: 18px;
+.btn{
+    width: 200%;
+    padding: 8px;
+    border-radius: 0;
+    color: white;
+    background-color: brown;
+    border: 0;
     font-weight: bold;
+    
+
 }
 
-#Please{
+#love{
+    padding: 8px;
+    width: 200%;
+    border: 0;
+    background-color: rgb(206, 238, 252);
+}
+
+.user{
+    font-size: 13px;
+    font-weight: lighter;
+    color: brown;
+    right: 69%;
+    top: 24%;
     position: absolute;
-    left: 14%;
+}
+
+.pass{
+    font-size: 13px;
+    font-weight: lighter;
+    position: absolute;
+    color: brown;
+    right: 69%;
+    top: 37%;
+}
+
+.forgot{
+    font-size: 13px;
+    font-weight: lighter;
+    position: absolute;
+    color: brown;
+    right: 63%;
+    top: 49%;
 }
 
 body{
     font-family: calibri;
-}
-
-#btn{
-    padding: 15px;
-    width: 100%;
-    background-color: gainsboro;
-    border: 0;
-}
-
-#btc{
-    padding: 15px;
-    width: 110%;
-    background-color: red;
-    color: white;
-    border: 0;
 }
